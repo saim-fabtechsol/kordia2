@@ -1,0 +1,745 @@
+.hero-logo {
+  max-width: 650px;
+}
+
+.max-w-800px {
+  max-width: 800px;
+}
+.w-300px{
+  width: 300px;
+}
+.img-80px {
+  width: 80px;
+  height: 80px;
+}
+
+.img-60px {
+  width: 60px;
+  height: 60px;
+}
+.img-50px {
+  width: 50px;
+  height: 50px;
+}
+.img-40px {
+  width: 40px;
+  height: 40px;
+}
+.img-180px{
+  width: 180px;
+  height: 180px;
+}
+.icon-40px {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.icon-15px {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+}
+.icon-12px{
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+}
+.icon-20px {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.img-gray {
+  filter: grayscale(60);
+}
+
+.text-12 {
+  font-size: 12px !important;
+}
+
+.icon-30px {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.btn-simple-border{
+  border-style: solid !important;
+  
+}
+.border-orange {
+  border-color: var(--main-orange) !important;
+}
+
+.border-blue {
+  border-color: var(--main-blue) !important;
+}
+
+.featured-artists .nav-tabs {
+  border: none;
+}
+
+.featured-artists .nav-tabs .nav-link {
+  border: none;
+  text-transform: uppercase;
+  text-wrap: nowrap;
+  opacity: 0.5;
+}
+
+.featured-artists .nav-tabs .nav-item {
+  margin: 12px 0;
+}
+
+.featured-artists .nav-tabs .nav-link.active {
+  opacity: 1;
+}
+
+.featured-artists .nav-tabs .nav-link img {
+  max-width: 120px;
+}
+
+.right-leaned {
+  transform: skew(-4deg, 4deg);
+}
+
+.left-leaned {
+  transform: skew(4deg, -4deg);
+}
+
+.object-top {
+  object-position: top;
+}
+
+.object-bottom {
+  object-position: bottom;
+}
+
+.object-center {
+  object-position: center;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.featured-artists .card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+  filter: grayscale(60);
+}
+
+.tape {
+  max-width: 130px;
+}
+
+.slider-arrow {
+  width: 80px;
+  cursor: pointer;
+}
+
+.featured-card-paragraph {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card:hover{
+  transform: none;
+  transition: .5s;
+}
+
+.testimonial-img-box {
+  width: 120px;
+  height: 150px;
+}
+
+.pin-img {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+}
+
+.contactus-input {
+  background-color: var(--bg-gray);
+  border: 1px solid rgba(233, 233, 233, 0.93);
+}
+
+.resize-none {
+  resize: none;
+}
+
+.contact-us .card-img-top {
+  max-height: 250px;
+  object-fit: cover;
+  filter: grayscale(60);
+}
+
+.footer-logo {
+  width: 120px;
+}
+
+.pt-70 {
+  padding-top: 70px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+.py-70 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.about-page-images-box {
+  max-width: 500px;
+  max-height: 300px;
+  box-shadow: 8px 8px 8px 0px rgba(22, 22, 22, 0.5);
+}
+
+.why-kordia-logo {
+  max-width: 400px;
+  max-width: 400px;
+  object-fit: contain;
+}
+
+.why-kordia {
+  background-image: url(../images/why-kordia-bg.png);
+  background-size: cover;
+}
+
+.clip-btm-rt-box {
+  margin-top: -1px;
+  height: 70px;
+  background-color: var(--main-blue);
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.clip-top-lft-box {
+  margin-bottom: -1px;
+  height: 70px;
+  background-color: var(--main-blue);
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+}
+
+.clip-top-rt-box {
+  margin-bottom: -1px;
+  height: 70px;
+  background-color: var(--main-blue);
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+
+.clip-btm-lft-box {
+  margin-top: -1px;
+  height: 70px;
+  background-color: var(--main-blue);
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+.accordian-content {
+  display: none;
+}
+
+.accordian-icon.active {
+  transform: rotate(-90deg);
+  transition: 0.5s;
+}
+
+.form-filter-btn {
+  color: var(--main-blue);
+  cursor: pointer;
+  border: 2px solid var(--main-blue);
+  text-align: center;
+}
+
+.form-filter-btn.active {
+  background-color: var(--main-blue);
+  color: #fff;
+}
+
+.comments-modal {
+  max-height: 80dvh;
+}
+
+.comments-modal-body {
+  max-height: calc(100% - 90px);
+}
+
+.contact-info-card {
+  min-height: 600px;
+  background-image: url(../images/conatct-info-card-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+/* ----------------------------- contact Us Radio ----------------------------- */
+
+.radio-wrapper-9 input[type="radio"] {
+  display: none;
+  appearance: none;
+}
+
+.radio-wrapper-9 input[type="radio"]+label:before {
+  content: "";
+  background: #fff;
+  border-radius: 100%;
+  border: 1px solid #b4b4b4;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin-right: 0.6em;
+  vertical-align: middle;
+  cursor: pointer;
+  text-align: center;
+  transition: all 250ms ease;
+}
+
+.radio-wrapper-9 input[type="radio"]:checked+label:before {
+  background-image: url(../images/check-circle-blue.png);
+  border: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.radio-wrapper-9 input[type="radio"]:focus+label:before {
+  outline: none;
+}
+
+.radio-wrapper-9 input[type="radio"]+label:empty:before {
+  margin-right: 0;
+}
+
+.min-100 {
+  min-height: 100dvh;
+}
+
+/* ----------------------------- contact Us Radio ----------------------------- */
+
+.template-logo {
+  max-width: 200px;
+  max-height: 50px;
+  object-fit: contain;
+}
+
+.template-profile-img {
+  width: 60px;
+  height: 60px;
+}
+
+.template-body {
+  height: calc(100dvh - 92px);
+}
+
+.side-bar {
+  width: 280px;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.template-right {
+  width: calc(100% - 280px);
+  background-color: #F9F9F9;
+}
+
+.side-bar-top {
+  height: calc(100% - 92px);
+}
+
+.side-bar-links {
+  font-size: 20px;
+  color: var(--main-blue);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 16px 8px 16px 16px;
+}
+.side-bar-links.active{
+  color: var(--main-orange);
+  background-color: var(--post-modal-bg);
+}
+.side-bar .dropdown-menu{
+  width: 100%;
+  border: none;
+  position: static !important;
+  transform: none !important;
+}
+.side-bar-dropdown-btn{
+  padding: 16px 0;
+  color: var(--main-blue);
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.db-revenue-graph{
+  min-width: 450px;
+  min-height: 250px;
+}
+.side-bar-top::-webkit-scrollbar
+,.scroll-bar-y-hidden::-webkit-scrollbar{
+  width: 0;
+}
+.musician-table .status.active{
+  background-color: rgba(13, 155, 0, 0.2);
+  color: rgba(19, 177, 4, 1);
+}
+.musician-table .status.blocked{
+  background-color: rgba(192, 0, 0, 0.2);
+  color:rgba(192, 0, 0, 1);
+}
+.musician-table .status.pending{
+  background-color: rgba(255, 255, 116, 0.5);
+  color: rgba(155, 155, 0, 1);
+}
+.musician-table .status.scheduled{
+  background-color: rgba(0, 123, 255, 0.2);
+  color: rgba(0, 123, 255, 1);
+}
+.musician-table .status.expired{
+  background-color: rgba(128, 128, 128, 0.2);
+  color: rgba(128, 128, 128, 1);
+}
+.musician-table{
+  text-wrap: nowrap;
+}
+.musician-table table{
+  border-collapse: separate;
+  border-spacing:0 10px;
+}
+.musician-table thead th{
+  align-content: center;
+  color: var(--main-orange);
+  background-color: var(--main-blue);
+  padding: 20px 12px;
+  text-transform: uppercase;
+}
+.musician-table thead tr th:first-child{
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.musician-table thead tr th:last-child{
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.musician-table tbody td{
+  align-content: center;
+  padding:12px;
+}
+.musician-table tbody tr td:first-child{
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.musician-table tbody tr td:last-child{
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.musician-table tbody .genre{
+  width: 200px;
+  text-wrap: wrap;
+}
+.more-options{
+  display: none;
+}
+.search-filter-form{
+  z-index: 5;
+  display: none;
+}
+.search-filter-form label.filter-btns{
+  color: var(--main-blue);
+  border: 2px solid var(--main-blue);
+  padding: 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.m-flter-input:checked+label.filter-btns{
+  background-color: var(--main-blue);
+  color: #fff;
+}
+.musician-pagination .pagination .page-link{
+  border: none;
+  margin: 0 8px;
+  border-radius: 8px;
+  color: var(--main-blue);
+}
+.musician-pagination .pagination .page-link:focus{
+  outline: none;
+  box-shadow: none;
+}
+.musician-pagination .pagination .page-link.active{
+  background-color: var(--main-blue);
+  color: #fff;
+}
+
+/* ----------------------------- Orange CheckBox ----------------------------- */
+.checkbox-wrapper-6 .tgl {
+  display: none;
+}
+.checkbox-wrapper-6 .tgl,
+.checkbox-wrapper-6 .tgl:after,
+.checkbox-wrapper-6 .tgl:before,
+.checkbox-wrapper-6 .tgl *,
+.checkbox-wrapper-6 .tgl *:after,
+.checkbox-wrapper-6 .tgl *:before,
+.checkbox-wrapper-6 .tgl + .tgl-btn {
+  box-sizing: border-box;
+}
+.checkbox-wrapper-6 .tgl::-moz-selection,
+.checkbox-wrapper-6 .tgl:after::-moz-selection,
+.checkbox-wrapper-6 .tgl:before::-moz-selection,
+.checkbox-wrapper-6 .tgl *::-moz-selection,
+.checkbox-wrapper-6 .tgl *:after::-moz-selection,
+.checkbox-wrapper-6 .tgl *:before::-moz-selection,
+.checkbox-wrapper-6 .tgl + .tgl-btn::-moz-selection,
+.checkbox-wrapper-6 .tgl::selection,
+.checkbox-wrapper-6 .tgl:after::selection,
+.checkbox-wrapper-6 .tgl:before::selection,
+.checkbox-wrapper-6 .tgl *::selection,
+.checkbox-wrapper-6 .tgl *:after::selection,
+.checkbox-wrapper-6 .tgl *:before::selection,
+.checkbox-wrapper-6 .tgl + .tgl-btn::selection {
+  background: none;
+}
+.checkbox-wrapper-6 .tgl + .tgl-btn {
+  outline: 0;
+  display: block;
+  width: 4em;
+  height: 2em;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.checkbox-wrapper-6 .tgl + .tgl-btn:after,
+.checkbox-wrapper-6 .tgl + .tgl-btn:before {
+  position: relative;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+}
+.checkbox-wrapper-6 .tgl + .tgl-btn:after {
+  left: 0;
+}
+.checkbox-wrapper-6 .tgl + .tgl-btn:before {
+  display: none;
+}
+.checkbox-wrapper-6 .tgl:checked + .tgl-btn:after {
+  left: 50%;
+}
+
+.checkbox-wrapper-6 .tgl-light + .tgl-btn {
+  background: #f0f0f0;
+  border-radius: 2em;
+  padding: 2px;
+  transition: all 0.4s ease;
+}
+.checkbox-wrapper-6 .tgl-light + .tgl-btn:after {
+  border-radius: 50%;
+  background: #fff;
+  transition: all 0.2s ease;
+}
+.checkbox-wrapper-6 .tgl-light:checked + .tgl-btn {
+  background: var(--main-orange);
+}
+/* ----------------------------- Orange CheckBox ----------------------------- */
+
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--main-blue);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main-orange);
+  border-radius: 8px;
+  border: 1px solid var(--main-blue);
+}
+.btn-red{
+  background-color: rgba(192, 0, 0, 0.2);
+  color:rgba(192, 0, 0, 1);
+  text-decoration: none;
+}
+.btn-green{
+  background-color: rgba(13, 155, 0, 0.2);
+  color: rgba(19, 177, 4, 1);
+  text-decoration: none;
+}
+.newplanModal .modal-dialog{
+  max-width: 1200px;
+}
+.newplanModal .modal-content{
+  max-height: 80dvh; 
+}
+.bg-select-gray{
+  background-color: rgba(191, 205, 214, 1);
+}
+.input-border{
+  border-color: rgba(191, 205, 214, 1);
+
+}
+.appearance-none{
+  appearance: none;
+}
+.rounded-inherit{
+  border-radius: inherit;
+}
+.image-preview-box{
+  width: 200px;
+  height: 200px;
+  border: 2px solid var(--main-blue);
+  padding: 2px;
+}
+.pending-amount-table{
+  max-height: 600px;
+}
+.pending-amount-table thead th p{
+  color: var(--main-blue);
+  border-bottom: 2px solid var(--main-blue);
+  display: inline;
+  padding:0 8px 4px;
+}
+.pending-amount-table tbody td{
+  align-content: center;
+  text-align: center;
+}
+.pending-amount-table tbody td:first-child{
+  text-align: start;
+}
+
+.search-musician .nav-tabs {
+  border: none;
+}
+
+.search-musician .nav-tabs .nav-link {
+  border: none;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.search-musician .nav-tabs .nav-item {
+  margin: 12px 0;
+}
+
+.search-musician .nav-tabs .nav-link.active {
+  opacity: 1;
+  background: none;
+  transform: scale(1.1);
+}
+
+.search-musician .nav-tabs .nav-link img {
+  max-width: 100px;
+}
+.chat-musician-hover-content{
+  bottom: 20%;
+  transition: .5s;
+  opacity: 0;
+  background-image: linear-gradient(179.89deg, rgba(0, 0, 0, 0) 0.1%, #000000 111.68%);
+}
+
+.chat-musician-box:hover .chat-musician-hover-content{
+  bottom: 50px;
+  opacity: 1;
+  bottom: 0;
+}
+
+.aspect-ratio-1{
+  aspect-ratio: 1/1;
+}
+
+
+.signature-container {
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  position: relative;
+}
+.abcdef canvas {
+  width: 100%;
+  height: 200px;
+  cursor: crosshair;
+}
+.abcdef .buttons {
+  text-align: center;
+  margin-top: 10px;
+}
+.abcdef button {
+  margin: 5px;
+}
+
+@media screen and (max-width:1200px) {
+  .template-right {
+    width: 100%;
+  }
+
+  .side-bar {
+    display: none;
+    position: absolute;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .slider-arrow {
+    width: 48px;
+  }
+
+  .why-kordia {
+    background: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .text-lsm-14 {
+    font-size: 14px !important;
+  }
+
+  .text-lsm-16 {
+    font-size: 16px !important;
+  }
+
+  .text-lsm-18 {
+    font-size: 18px !important;
+  }
+  .w-lsm-100{
+    width: 100%;
+  }
+  .hero-img{
+    max-width: 400px;
+  }
+  .text-lsm-12{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  
+  
+  .template-profile-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .template-logo {
+    max-width: 120px;
+    max-height: 50px;
+  }
+
+  .template-body {
+    height: calc(100dvh - 72px);
+  }
+}

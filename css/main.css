@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-black-webfont.woff2') format('woff2'),
+        url('../fonts/poppins-black-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+        url('../fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-semibold-webfont.woff2') format('woff2'),
+        url('../fonts/poppins-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-extrabold-webfont.woff2') format('woff2'),
+        url('../fonts/poppins-extrabold-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-extralight-webfont.woff2') format('woff2'),
+        url('../fonts/poppins-extralight-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-light-webfont.woff2') format('woff2'),
+        url('../fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+        url('../fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+        url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-thin-webfont.woff2') format('woff2'),
+        url('../fonts/poppins-thin-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'poppins';
+}
+
+.mycontainer {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.pointer{
+    cursor: pointer;
+}
+.my-shadow {
+    box-shadow: 0px 0px 20px 0px rgba(154, 154, 154, 0.2);
+}
+
+.focus-none:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.fw-extrabold{
+    font-weight: 800;
+}
+.fw-black{
+    font-weight: 900;
+}
+:root{
+    --main-blue:rgba(0, 58, 94, 1);
+    --main-orange: rgba(255, 151, 0, 1);
+    --navbar-bg:rgba(0, 58, 94, 0.9);
+    --bg-feature-card:rgba(0, 106, 160, 1);
+    --dull-blue:rgba(64, 107, 134, 1);
+    --secondary-blue:rgba(128, 157, 175, 1);
+    --likes-red:rgba(192, 0, 0, 1);
+    --red:rgba(241, 0, 0, 1);
+    --post-modal-bg:rgba(245, 225, 196, 1);
+    --dull-orange:rgba(227, 167, 80, 1);
+    --light-orange:rgba(237, 197, 138, 1);
+    --bg-gray:rgba(243, 243, 243, 1);
+}
+.navbar-bg{
+    background-color: var(--navbar-bg);
+}
+.bg-main-orange{
+    background-color: var(--main-orange);
+}
+.text-main-orange{
+    color: var(--main-orange);
+}
+.text-red{
+    color: var(--red);
+}
+.bg-main-blue{
+    background-color: var(--main-blue);
+}
+.text-dull-blue{
+    color: var(--dull-blue);
+}
+.text-secondary-blue{
+    color: var(--secondary-blue);
+}
+.bg-feature-card{
+    background-color: var(--bg-feature-card);
+}
+.bg-gray{
+    background-color: var(--bg-gray);
+}
+.bg-post-modal{
+    background-color: var(--post-modal-bg);
+}
+.bg-orange-dull{
+    background-color: var(--dull-orange);
+}
+.bg-orange-light{
+    background-color: var(--light-orange);
+}
+.text-main-blue{
+    color: var(--main-blue);
+}
+.text-likes-red{
+    color: var(--likes-red);
+}
+.bg-likes-red{
+    background-color: var(--likes-red);
+}
+.border-orange{
+    border-color: var(--main-orange) !important;
+}
+.btn-orange-solid{
+    text-decoration: none;
+    background-color: var(--main-orange);
+    display: inline-block;
+}
+.btn-orange-regular{
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-orange-regular:hover{
+    background-color: var(--main-orange);
+}
+.navbar-logo{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.navbar .nav-link{
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.navbar .nav-item{
+    display: flex;
+    align-items: center;
+}
+.navbar .nav-link:not(.active){
+    color: #fff;
+}
+
+.navbar .nav-link.active{
+    color: var(--main-orange);
+}
+.text-12{
+    font-size: 12px;
+}
+.text-10{
+    font-size: 10px;
+}
